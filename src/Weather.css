@@ -1,0 +1,74 @@
+/* Weather.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6dd5fa, #2980b9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(./weather.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent{
+    background-color: rgba(255, 255, 255, 0.46);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-align: center;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #2980b9;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 4px rgba(241, 241, 241, 0.7);
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1b598a;
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
